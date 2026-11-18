@@ -1,0 +1,14 @@
+{
+  "name": "copy-on-write-page-table",
+  "version": "1.0.0",
+  "description": "写时复制页表：模拟 fork 快照、共享物理页引用计数与安全回收",
+  "type": "module",
+  "main": "src/page-table.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
